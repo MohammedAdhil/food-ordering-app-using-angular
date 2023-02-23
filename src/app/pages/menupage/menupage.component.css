@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+*{
+    font-family: 'Fugaz One', cursive;
+}
+
+form{
+    width: 50%;
+    margin-top: 10%;
+
+
+}
+
+img{
+    
+    border-radius: 6px;
+    padding: 10px 20px;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+@media screen and (max-width:600px) {
+    form{
+        width: 100%;
+    }
+    
+}
